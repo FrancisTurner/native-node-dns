@@ -1,3 +1,8 @@
+0.7.1: 2021-05-20 Francis Turner <francis.turner@gmail.com>
+  * change new Buffer() to new Buffer.alloc()
+  * change TXT test to use a different domain the google.com so that
+  * the harness works as expected
+
 0.7.0: 2014-08-05 Greg Slepak <contact@taoeffect.com>
   * `native-dns-packet` 0.0.4 -> 0.1.1
   * `native-dns-cache`  0.0.1 -> 0.0.2

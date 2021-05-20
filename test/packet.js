@@ -19,7 +19,7 @@ exports.roundTrip = function (test) {
     ttl: 600,
   }));
 
-  buff = new Buffer(1024);
+  buff = new Buffer.alloc(1024);
 
   len = Packet.write(buff, pre);
 

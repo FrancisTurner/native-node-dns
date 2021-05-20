@@ -4,6 +4,11 @@
 native-dns -- A replacement DNS stack for node.js
 =================================================
 
+# New Fork
+
+Francis Turner is forking this repo and the associated native-dns-cache 
+and native-dns-packet repos.
+
 # Maintenance
 
 This project is not actively maintained, it's left here for historical reasons,
