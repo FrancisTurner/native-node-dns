@@ -1,6 +1,6 @@
 {
   "name": "native-node-dns",
-  "version": "0.7.5",
+  "version": "0.7.6",
   "authors": [
     "Francis Turner <francis.turner@gmail.com>",
     "Timothy J Fontaine <tjfontaine@gmail.com> (http://atxconsulting.com)",
@@ -14,13 +14,13 @@
     "bind",
     "native"
   ],
-  "homepage": "http://github.com/FrancisTurner/node-dns",
+  "homepage": "http://github.com/FrancisTurner/native-node-dns",
   "bugs": {
-    "url": "http://github.com/FrancisTurner/node-dns/issues"
+    "url": "http://github.com/FrancisTurner/native-node-dns/issues"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/FrancisTurner/node-dns.git"
+    "url": "http://github.com/FrancisTurner/native-node-dns.git"
   },
   "main": "dns.js",
   "engines": {
