@@ -1,6 +1,6 @@
 {
   "name": "native-node-dns",
-  "version": "0.7.2",
+  "version": "0.7.5",
   "authors": [
     "Francis Turner <francis.turner@gmail.com>",
     "Timothy J Fontaine <tjfontaine@gmail.com> (http://atxconsulting.com)",
@@ -31,8 +31,8 @@
   },
   "dependencies": {
     "ipaddr.js": "~0.1.3",
-    "native-node-dns-cache": ">0.0.3",
-    "native-node-dns-packet": ">0.1.3"
+    "native-node-dns-cache": ">=0.0.3",
+    "native-node-dns-packet": ">=0.1.3"
   },
   "devDependencies": {
     "optimist": "",

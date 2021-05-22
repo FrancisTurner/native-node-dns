@@ -168,9 +168,9 @@ var library_name = argv[0].toLowerCase();
 var concurrent = parseInt(argv[1]);
 var queries = parseInt(argv[2]);
 
-if (['stock', 'native-dns'].indexOf(library_name) === -1) {
+if (['stock', 'native-node-dns'].indexOf(library_name) === -1) {
   opt.showHelp();
-  console.error('library should be one of: stock, native-dns\r\n');
+  console.error('library should be one of: stock, native-node-dns\r\n');
   process.exit(1);
 }
 

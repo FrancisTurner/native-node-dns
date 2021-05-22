@@ -1,3 +1,9 @@
+0.7.5: 2021-05-21 Francis Turner <francis.turner@gmail.com>
+  * Update requires to use native-node-dns-packet etc.
+0.7.4: 2021-05-21 Francis Turner <francis.turner@gmail.com>
+  * Update requires to use native-node-dns-packet etc.
+0.7.3: 2021-05-21 Francis Turner <francis.turner@gmail.com>
+  * Fix package version issue
 0.7.2: 2021-05-21 Francis Turner <francis.turner@gmail.com>
   * merge 3 outstanding PRs from original project (optional headers and
     additional records in request, test fixes)
