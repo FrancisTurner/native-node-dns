@@ -1,9 +1,9 @@
 {
-  "name": "native-dns",
-  "version": "0.7.1",
+  "name": "native-node-dns",
+  "version": "0.7.2",
   "authors": [
-    "Timothy J Fontaine <tjfontaine@gmail.com> (http://atxconsulting.com)",
     "Francis Turner <francis.turner@gmail.com>",
+    "Timothy J Fontaine <tjfontaine@gmail.com> (http://atxconsulting.com)",
     "Greg Slepak <contact@taoeffect.com> (https://twitter.com/taoeffect)",
     "Roger Castells <rc@ataclick.net>",
     "Matthieu Rakotojaona"
@@ -14,7 +14,7 @@
     "bind",
     "native"
   ],
-  "homepage": "http://github.com/FrancisTurnernode-dns",
+  "homepage": "http://github.com/FrancisTurner/node-dns",
   "bugs": {
     "url": "http://github.com/FrancisTurner/node-dns/issues"
   },
@@ -31,8 +31,8 @@
   },
   "dependencies": {
     "ipaddr.js": "~0.1.3",
-    "native-dns-cache": "~0.0.2",
-    "native-dns-packet": "~0.1.1"
+    "native-node-dns-cache": ">0.0.3",
+    "native-node-dns-packet": ">0.1.3"
   },
   "devDependencies": {
     "optimist": "",

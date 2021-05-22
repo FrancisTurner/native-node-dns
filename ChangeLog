@@ -1,3 +1,8 @@
+0.7.2: 2021-05-21 Francis Turner <francis.turner@gmail.com>
+  * merge 3 outstanding PRs from original project (optional headers and
+    additional records in request, test fixes)
+  * change npm package to native-node-dns and use the similarly renamed
+    native-node-dns-packet and native-node-dns-cache
 0.7.1: 2021-05-20 Francis Turner <francis.turner@gmail.com>
   * change new Buffer() to new Buffer.alloc()
   * change TXT test to use a different domain the google.com so that

@@ -1,22 +1,14 @@
-[![wercker status](https://app.wercker.com/status/ed5cab9035dfb9167714f305340490c2/s/master "wercker status")](https://app.wercker.com/project/byKey/ed5cab9035dfb9167714f305340490c2)
-[![Build Status](https://secure.travis-ci.org/tjfontaine/node-dns.png)](http://travis-ci.org/tjfontaine/node-dns)
-
-native-dns -- A replacement DNS stack for node.js
+native-node-dns -- A replacement DNS stack for node.js
 =================================================
 
-# New Fork
+# New Fork - native-node-dns
 
-Francis Turner is forking this repo and the associated native-dns-cache 
-and native-dns-packet repos.
+Francis Turner has forked the original node-dns repo to make this new
+repo and npm package and the associated native-dns-cache 
+and native-dns-packet repos/packages (as native-node-dns-cache and 
+native-node-dns-packet)
 
-# Maintenance
-
-This project is not actively maintained, it's left here for historical reasons,
-and when I (TJ) have time I come back to it.
-
-Feel free to fork and name the repo and npm package whatever you will.
-
-# (Below follows original README)
+# Original README (with updates from incorporated pull reqs)
 
 Installation
 ------------
