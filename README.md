@@ -14,24 +14,24 @@ Installation
 ------------
 
 ```
-npm install native-dns
+npm install native-node-dns
 ```
 
 Client
 ------
 
-native-dns exports what should be a 1:1 mapping of the upstream node.js dns
+native-node-dns exports what should be a 1:1 mapping of the upstream node.js dns
 module. That is to say if it's listed in the [docs](http://nodejs.org/docs/latest/api/dns.html)
 it should behave similarly. If it doesn't please file an [issue](https://github.com/tjfontaine/node-dns/issues/new).
 
 Request
 -------
 
-Beyond matching the upstream module, native-dns also provides a method for
+Beyond matching the upstream module, native-node-dns also provides a method for
 customizing queries.
 
 ```javascript
-var dns = require('native-dns');
+var dns = require('native-node-dns');
 var util = require('util');
 
 var question = dns.Question({
@@ -139,7 +139,7 @@ Server
 There is also a rudimentary server implementation
 
 ```javascript
-var dns = require('native-dns');
+var dns = require('native-node-dns');
 var server = dns.createServer();
 
 server.on('request', function (request, response) {
