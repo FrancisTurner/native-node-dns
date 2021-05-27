@@ -8,6 +8,9 @@ repo and npm package and the associated native-dns-cache
 and native-dns-packet repos/packages (as native-node-dns-cache and 
 native-node-dns-packet)
 
+Due to the way github works, please file issues in the original repo (tjfontaine/node-dns ) and tag me
+until I can figure out how to make this a separate project
+
 # Original README (with updates from incorporated pull reqs)
 
 Installation
